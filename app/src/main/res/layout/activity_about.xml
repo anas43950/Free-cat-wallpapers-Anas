@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    android:fillViewport="true"
+    android:background="@color/dark_blue">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="17sp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_height="wrap_content"
+            android:text="Greetings!"
+            android:textColor="@color/off_white" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_light"
+            android:layout_height="wrap_content"
+            android:text="Welcome to our section dedicated to Free cat wallpapers! We take great pride in creating unique and original cat wallpapers that are sure to brighten up your device's screen. Our team works hard to ensure that each wallpaper is not only visually appealing but also of high quality."
+            android:textColor="@color/off_white" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_light"
+            android:layout_height="wrap_content"
+            android:text="We understand that cats hold a special place in the hearts of many, which is why we have created a wide range of wallpapers featuring different styles, colours, and patterns. Whether you prefer playful kittens or majestic adult cats, we've got you covered."
+            android:textColor="@color/off_white" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_light"
+            android:layout_height="wrap_content"
+            android:text="In our application, you can rest assured that all of our cat wallpapers are originally created by us. We do not use any stock images or templates. This means that when you download a wallpaper from our site, you are getting a truly unique and one-of-a-kind piece of art."
+            android:textColor="@color/off_white" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_light"
+            android:layout_height="wrap_content"
+            android:text="So, feel free to browse our collection of free cat wallpapers and add some feline flair to your device's screen. We hope you enjoy our content as much as we enjoy creating it for you!"
+            android:textColor="@color/off_white" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_all"
+        android:title="Home" />
+    <item
+        android:id="@+id/auto_wallpaper_changer_menu"
+        android:icon="@drawable/ic_auto_wallpaper_changer"
+        android:title="Auto Wallpaper Changer" />
+    <item
+        android:title="More options">
+        <menu>
+            <item
+                android:id="@+id/menu_rating"
+                android:icon="@drawable/ic_rate"
+                android:title="Rate" />
+            <item
+                android:id="@+id/menu_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/menu_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Send Feedback" />
+            <item
+                android:id="@+id/menu_about"
+                android:icon="@drawable/ic_about"
+                android:title="About | Disclaimer" />
+            <item
+                android:id="@+id/menu_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+</menu>
